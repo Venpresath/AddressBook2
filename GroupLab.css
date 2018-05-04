@@ -1,0 +1,56 @@
+body {
+	font-family: 'Monoton', cursive;
+	margin: 0;
+	background-image: url("back.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container, #lower, #upper, form {
+	display: flex;
+}
+.container, #upper, form {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#upper {
+	color: #fff;
+	background-color: #000;
+	opacity: .7;
+	width: 35%;
+	border: 2px;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: ;
+	border-radius: 15px;
+}
+form {
+	width: 100%;
+	justify-content: space-around;
+}
+input, select, option #relation {
+	width: 90%;
+	padding: 10px 0 10px 15px;
+	margin: 15px 0;
+	border-radius: 5px;
+	border:none;
+	background-color: #fff;
+	opacity:1;
+}
+#relation {
+
+}
+
+#lower {
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+
+}
+@media screen and (max-width: 750px;) {
+
+}
