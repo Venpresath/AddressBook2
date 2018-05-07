@@ -74,9 +74,9 @@ input, select, option #relation {
 	border-radius: 100%;
 	height: 40px;
 	width: 40px;
-	position: absolute;
-	left: 246px;
-	top:94px;
+	position: relative;
+	left: 91%;
+	top: 17%;
 }
 .trashImg {
 	width:20px;
